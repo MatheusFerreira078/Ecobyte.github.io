@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 80px;
+    box-shadow: 0px 5px 4px rgba(163, 163, 163, 0.71);
+}
+
+nav .logo {
+    font-size: 30px;
+    margin: 10px;
+}
+
+nav .logo span {
+    color: green;
+}
+
+nav .links {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 40px;
+}
+
+header {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+header .left h1 {
+    margin: 0 10px;
+    font-size: 60px;
+}
+
+header .left p {
+    font-size: 20px;
+    margin: 40px 10px;
+}
+
+header .left strong {
+    color: green;
+}
+
+header img {
+    width: 1000px;
+}
+
+header .left a {
+    background: #000;
+    border-radius: 60px;
+    padding: 8px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+header .left a i, header .left a span {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.image-container img,
+.linha img,
+.linha-inversa img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+}
+
+.image-container img:hover,
+.linha img:hover,
+.linha-inversa img:hover {
+    transform: scale(1.1);
+}
+
+.linha, .linha-inversa {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: justify;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.texto {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(27, 156, 27);
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte base para o corpo do site */
+body {
+    font-family: 'Ubuntu';
+  }
+  
+  
+ /* *Cabeçalho fixo no topo da página* */
+header {
+    position: fixed;              /* *Fixa o cabeçalho no topo da janela* */
+    top: 0;                       /* *Coloca no topo* */
+    left: 0;                      /* *Alinha à esquerda* */
+    width: 100%;                  /* *Ocupa toda a largura da tela* */
+    background-color: #ffffff;   /* *Fundo branco para não sobrepor o conteúdo* */
+    z-index: 1000;                /* *Mantém acima de outros elementos* */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* *Sombra sutil para destacar* */
+}
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    color: green;
+  }
+  
+  nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .text-area h1 {
+    font-size: 4.5rem; /* ou ajuste como quiser */
+    color: green;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: green;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-area h2,
+.text h2 {
+  font-size: 3rem; /* Aumente conforme desejar, ex: 2.5rem ou 3rem */
+  font-weight: 600;
+  margin: 1rem 0;
+  color: #333; /* ou deixe como está, se quiser manter a cor padrão */
+  line-height: 1.4;
+}
+
+  
+  .text p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .fonte a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .image-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+  }
+  
+  .pile-image {
+    width: 100%;
+    max-width: 600px; /* você pode aumentar esse valor */
+    height: auto;
+  }
+  
+  
+  .map-frame {
+    width: 100%;
+    max-width: 500px;  /* Reduzido */
+    height: 250px;     /* Reduzido */
+    border: 1px solid #ccc;
+    border-radius: 16px; /* Cantos arredondados */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .text-area {
+    flex: 1;
+  }
+  
+  .pile-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .pile-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15rem; /* Aumente de 2rem para 3rem ou mais */
+    padding: 2rem;
+  }
+  
+
+  
+  .text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .map-area {
+    flex: 1;
+    min-width: 300px;
+  }
+  .rodape-container {
+    width: 100%;
+    background-color: #2e7d32; /* verde escuro */
+  }
+  
+  .rodape {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .rodape-container {
+    width: 100%;
+    background-color: #2e7d32; /* verde escuro */
+    margin-top: 40px;
+  }
+  
+  .rodape {
+    color: white;
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  
